@@ -1,13 +1,15 @@
 .transactionHistory {
     font-size: 18px;
-    width: 500px;
-    background-color: rgb(255, 255, 255);
+    width: 480px;
     text-align: center;
     margin: 0 auto;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .1);
+   
+  
   }
   
   .transactionHistory thead {
-    background-color: rgb(7, 229, 245);
+    background-color: rgb(255, 200, 243);
     color: rgb(255, 255, 255);
   }
   
@@ -18,5 +20,6 @@
   }
   
   .transactionHistory tr:nth-child(2n) {
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(133, 133, 133);
+    color: white;
   }
